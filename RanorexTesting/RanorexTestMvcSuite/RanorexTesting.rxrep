@@ -1,0 +1,1275 @@
+﻿<repository
+name="RanorexTestMvcSuiteRepository"
+id="8bd153c0-f1a4-4b50-9c06-7e246203e39c"
+rxversion="5.1.0.18625">
+	<codegen
+	classname="RanorexTestMvcSuiteRepository"
+	namespace="RanorexTestMvcSuite"/>
+	<rootfolder
+	name="Root"
+	id="c9882dc8-51ac-4910-8dc9-6e1053f0ef76"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="LoginMozillaFirefox"
+		id="18c2b06e-1b21-4883-9b5f-2eb3672013ff"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Login - Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="Login"
+			id="c58c4218-7f73-41f6-b660-c769789456f3"
+			searchtimeout="30000ms"
+			capname="container"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Логин"
+				id="b573f5d0-7755-4f55-90ac-9dfe172a3ba7"
+				searchtimeout="30000ms"
+				capname="text"
+				addcaps="text,accessible"
+				refimgid="e8c0bf75-c6a8-4f03-a9a3-7b2384d164d1">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename=$LoginField]
+				</item>
+				<item
+				name="ВведитеПароль"
+				id="140efdbd-228b-4f49-bd63-7ba19b912533"
+				searchtimeout="30000ms"
+				capname="text"
+				addcaps="text,accessible"
+				refimgid="1ca22c47-9be4-4602-a76c-9d14610acab7">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename=$loginFieldValid]
+				</item>
+				<item
+				name="Войти"
+				id="a11204da-0802-4b94-adf4-2f59b69a7377"
+				searchtimeout="30000ms"
+				capname="button"
+				addcaps="button,accessible"
+				refimgid="052cb539-6def-4f73-b5cc-9b5b094e6992">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename=$Enter]
+				</item>
+				<item
+				name="ВведитеЛогин"
+				id="68c7ef6e-fd47-40dc-874d-537871bda153"
+				searchtimeout="30000ms"
+				capname="text"
+				addcaps="text,accessible"
+				refimgid="5ad78cc5-bedd-46c7-a150-154ae1dc5bdd">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename=$loginFieldValidationMessage]
+				</item>
+				<item
+				name="ВведитеПароль1"
+				id="b816faf0-e84c-4767-99e0-26ded0cf9bc1"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Login']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/element[@accessiblerole='None']/text[@accessiblename='Введите пароль']"
+				addcaps="text,accessible"
+				refimgid="28c4641c-0865-4317-9d6b-21a0215fc7fc">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1087;&#1072;&#1088;&#1086;&#1083;&#1100;']
+				</item>
+				<item
+				name="Логин1"
+				id="0ff2b831-02a7-409f-af93-0f7c0605a8dc"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container/container/element/container/element/element/element[1]/text[@accessiblename='Логин']"
+				addcaps="text,accessible"
+				refimgid="40ef20bd-00f4-49dc-b4a5-58e970a814f9">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/?/?/text[@accessiblerole='StaticText']
+				</item>
+				<item
+				name="Пароль"
+				id="5e22c8e5-71fb-4c8b-bff4-a667c7fca928"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container/container/element/container/element/element/element[2]/element/text[@accessiblename='Пароль']"
+				addcaps="text,accessible"
+				refimgid="e2116b3f-5caf-4fa7-83fc-86ef05589416">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;']
+				</item>
+				<item
+				name="Пароль1"
+				id="232d082b-7633-41a0-84cb-e814f5743c59"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container/container/element/container/element/element/element[2]/text[@accessiblename='Пароль']"
+				addcaps="text,accessible"
+				refimgid="0b03a0fe-f641-4982-aa62-13a5edcf96be">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/?/?/text[@accessiblename='&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;' and @accessiblerole='StaticText']
+				</item>
+				<item
+				name="Зарегистрироваться"
+				id="5a3a5407-7484-40d4-a0a9-d29521dad21e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container/container/element/container/element/element/element[4]/element/link/text[@accessiblename='Зарегистрироваться']"
+				addcaps="text,accessible"
+				refimgid="18f01d10-3a2e-4a66-8f3d-1633b367ac71">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']//link[@accessiblename='&#1047;&#1072;&#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103;']/text[@accessiblename='&#1047;&#1072;&#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103;']
+				</item>
+				<item
+				name="Login"
+				id="ba2fb85a-6e1f-4846-8f0f-8400d965be1c"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Login - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='1']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Login']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[4]/element[@accessiblerole='None']/button[@accessiblename='Login']"
+				addcaps="button,accessible"
+				refimgid="1aedd274-ad56-4553-b57f-05d4a4c25762">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Login']
+				</item>
+				<item
+				name="LoginName"
+				id="318bb5f8-4608-462d-96e5-5b5df7497c94"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='1']/container/container/element/container/element/element/element[1]/element/text[@accessiblename='Login name']"
+				addcaps="text,accessible"
+				refimgid="b7b6ba01-4354-45fa-981b-a23b473bb94c">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Login name']
+				</item>
+				<item
+				name="Password"
+				id="79fa7f6e-0340-4ea9-b2f0-5e1a609496d3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='1']/container/container/element/container/element/element/element[2]/element/text[@accessiblename='Password']"
+				addcaps="text,accessible"
+				refimgid="5f0efc16-0434-43fd-84e3-132d49aeb726">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Password']
+				</item>
+				<item
+				name="LoginName1"
+				id="2d0a5871-833b-482b-96d0-1dcfcf15027a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Login - Mozilla Firefox']/container/container[9]/element/container/element/element[2]/element[1]/element/text[@accessiblename='Login name']"
+				addcaps="text,accessible"
+				refimgid="aeff2a24-ab84-4cb8-b1d1-8f2d0e8a39c6">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[2]/element[1]/element[@accessiblerole='None']/text[@accessiblename='Login name']
+				</item>
+				<basepath>
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']
+				</basepath>
+			</folder>
+			<item
+			name="PushButton"
+			id="615d63da-5c24-4c40-b71b-fead147a0e79"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Login - Mozilla Firefox']/toolbar[@accessiblename='Вкладки браузера']/tabpagelist/tabpage/button[@accessiblerole='PushButton']"
+			addcaps="button,accessible"
+			refimgid="76b73611-974e-4285-a4fa-b7effd66d50b">
+				/form[@title='Login - Mozilla Firefox']/toolbar[@accessiblename='&#1042;&#1082;&#1083;&#1072;&#1076;&#1082;&#1080; &#1073;&#1088;&#1072;&#1091;&#1079;&#1077;&#1088;&#1072;']/?/?/tabpage/button[@accessiblerole='PushButton']
+			</item>
+			<folder
+			name="HttpLocalhost6333AccountRegister"
+			id="90d5cec0-9978-4b6a-bd36-bddae7097143"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/register']"
+			addcaps="container,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="ВведитеЛогин"
+				id="a0a8925f-3c47-4705-bf81-051290bada96"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/register']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[1]/element[@accessiblerole='None']/text[@accessiblename='Введите логин']"
+				addcaps="text,accessible"
+				refimgid="6bfaf830-7a75-45f1-9480-f1b104089b31">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[1]/?/?/text[@accessiblename='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1083;&#1086;&#1075;&#1080;&#1085;']
+				</item>
+				<item
+				name="ВведитеEmail"
+				id="31663f3b-389b-4e17-b15b-7994bf2e2219"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[2]/element/text[@accessiblename='Введите email']"
+				addcaps="text,accessible"
+				refimgid="767e4ec5-2373-4133-a67e-336a27096cf0">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[2]/?/?/text[@accessiblename='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; email']
+				</item>
+				<item
+				name="Зарегистрироваться"
+				id="de3a48e3-ad2a-4e2e-a506-9ed2ad1c9ee1"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[5]/element/button[@accessiblename='Зарегистрироваться']"
+				addcaps="button,accessible"
+				refimgid="71dc5de2-6daf-4199-90f4-dc172d250e26">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[5]/?/?/button[@accessiblename='&#1047;&#1072;&#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103;']
+				</item>
+				<item
+				name="ВведитеПароль"
+				id="526998df-18a2-4224-8d67-9df7af465fb0"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/register']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[3]/element[@accessiblerole='None']/text[@accessiblename='Введите пароль']"
+				addcaps="text,accessible"
+				refimgid="0cb2b2dd-5c9b-40ac-a059-7529220d44a1">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[3]/?/?/text[@accessiblename='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1087;&#1072;&#1088;&#1086;&#1083;&#1100;']
+				</item>
+				<item
+				name="Логин"
+				id="0d85d30e-f74d-4067-be5a-13958a2df9f9"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[1]/element/text[@accessiblename='Логин']"
+				addcaps="text,accessible"
+				refimgid="c7d7bfa9-d9ee-48c8-a661-5922d8094086">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[1]/element/text[@accessiblename='&#1051;&#1086;&#1075;&#1080;&#1085;']
+				</item>
+				<item
+				name="Email"
+				id="d6129bd5-5832-40ef-a965-679785ed1aa5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[2]/element/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="3f84270a-6e26-4df8-9972-8da4bd73cd4b">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[2]/element/text[@accessiblename='Email']
+				</item>
+				<item
+				name="Пароль"
+				id="40823532-87f8-4ae3-99f6-5c0e4e5ca4a6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[3]/element/text[@accessiblename='Пароль']"
+				addcaps="text,accessible"
+				refimgid="d8a57952-ccc5-498a-aa9f-839cb0a182fd">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[3]/element/text[@accessiblename='&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;']
+				</item>
+				<item
+				name="ПаролиНеСовпадают"
+				id="40660bf8-7b9f-4f10-91c0-1e1fa1c24bf5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/register']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[@accessiblerole='None']/element[4]/element[@accessiblerole='None']/text[@accessiblename='Пароли не совпадают']"
+				addcaps="text,accessible"
+				refimgid="6feafff3-befc-4cf1-b7ad-c77aa210f8f0">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[4]/?/?/text[@accessiblename='&#1055;&#1072;&#1088;&#1086;&#1083;&#1080; &#1085;&#1077; &#1089;&#1086;&#1074;&#1087;&#1072;&#1076;&#1072;&#1102;&#1090;']
+				</item>
+				<item
+				name="None"
+				id="607b8cd9-78da-47af-a140-62eb6798ec2e"
+				searchtimeout="30000ms"
+				capname="unknown"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element[@accessiblerole='None']"
+				addcaps="unknown,accessible"
+				refimgid="259e4905-6d44-4fd5-b93a-042aee73e9c3">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				name="Логин1"
+				id="cada4fb6-3cb3-434d-b674-49be733589c3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[1]/text[@accessiblename='Логин']"
+				addcaps="text,accessible"
+				refimgid="27df3543-cf54-43d7-ada1-5114ffb9d78f">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[1]/text[@accessiblename='&#1051;&#1086;&#1075;&#1080;&#1085;']
+				</item>
+				<basepath>
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']
+				</basepath>
+			</folder>
+			<item
+			name="Separator"
+			id="480132c1-7784-405c-897c-c450ebf1bf00"
+			searchtimeout="30000ms"
+			capname="separator"
+			refpath="/form[@title='Login - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='1']/separator[@accessiblerole='Separator']"
+			addcaps="separator,accessible"
+			refimgid="f2f06c76-1f6f-4232-9b90-ca146ff75595">
+				/form[@title='Login - Mozilla Firefox']/separator[@accessiblerole='Separator']
+			</item>
+			<folder
+			name="Grouping"
+			id="cbd05533-5283-42bf-a312-f03d8ad427f7"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Index_ - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='3']/container[@accessiblerole='Grouping']"
+			addcaps="container,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Save"
+				id="cb43d852-db2d-460b-b00c-40dacd023f2d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/en/account/manage']/element[@accessiblerole='None']/element[4]/element[4]/element[@accessiblerole='None']/button[@accessiblename='Save']"
+				addcaps="button,accessible"
+				refimgid="4b481473-30e3-4e9c-a99b-6622ae2b17e3">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/en/']/element/element[4]/element[4]/?/?/button[@accessiblename='Save']
+				</item>
+				<item
+				name="Выход"
+				id="719208e7-cf40-47b9-b6f7-dc9a7ad0e94c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[1]/link[@accessiblename='Выход']/text[@accessiblename='Выход']"
+				addcaps="text,accessible"
+				refimgid="1e1329ae-2607-4918-9d58-477d092cbc8e">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/ru/']//link[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']/text[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']
+				</item>
+				<item
+				name="Сохранить"
+				id="467c2f84-2d36-4a44-9226-657c3fa0c54d"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/ru/account/manage']/element[@accessiblerole='None']/element[4]/element[4]/element[@accessiblerole='None']/button[@accessiblename='Сохранить']"
+				addcaps="button,accessible"
+				refimgid="45211cef-b1dd-420d-b79a-3cbeb74f8cf8">
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/ru/']/element/element[4]/element[4]/?/?/button[@accessiblename='&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;']
+				</item>
+				<basepath>
+					/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Login - Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="IndexMozillaFirefox"
+		id="4d2aebc2-ddcc-4e71-b8bc-3c53c01ed88b"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Index_ - Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Find"
+			id="a809c26e-f085-451f-b365-91125d5873e4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/button[@accessiblename='Find']"
+			addcaps="button,accessible"
+			refimgid="b2f40ebd-4c46-4a2d-ba9c-e48f9d9d701d">
+				/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/button[@accessiblename='Find']
+			</item>
+			<item
+			name="Выход"
+			id="3904fa3f-6cbc-4cf4-a02c-b8137c3454e3"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[1]/link[@accessiblename='Выход']/text[@accessiblename='Выход']"
+			addcaps="text,accessible"
+			refimgid="bac20fee-b77f-4417-89d5-be4407f5c7fd">
+				/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']/text[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']
+			</item>
+			<folder
+			name="Index"
+			id="b7d33bdb-cd35-4636-9f51-3b454859092a"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Index_ - Mozilla Firefox' and @processname='firefox' and @class='MozillaWindowClass' and @instance='3']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']"
+			addcaps="container,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Text2"
+				id="b1fcb22b-c1a9-4433-9a23-5d0949170d31"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='2']/text[@accessiblename='2']"
+				addcaps="text,accessible"
+				refimgid="4f8459e7-da59-4a87-8b69-09d8c8ec3443">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='2']/text[@accessiblename='2']
+				</item>
+				<item
+				name="Text3"
+				id="4fd5616d-aabe-432d-8c40-1e9218067eaa"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='3']/text[@accessiblename='3']"
+				addcaps="text,accessible"
+				refimgid="a14aa3de-077d-4a10-9c9c-ce0188a0e421">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='3']/text[@accessiblename='3']
+				</item>
+				<item
+				name="Text4"
+				id="fc7d0da8-3190-4d93-8028-694801f5ba2b"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='4']/text[@accessiblename='4']"
+				addcaps="text,accessible"
+				refimgid="9afe9b32-f5f3-4b18-a52d-39208eb1224c">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='4']/text[@accessiblename='4']
+				</item>
+				<item
+				name="Text5"
+				id="b0f038bc-56db-480b-a278-64f29680376a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='5']/text[@accessiblename='5']"
+				addcaps="text,accessible"
+				refimgid="0e83049c-fbb2-4ad8-9e8b-d97e2d9bc508">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='5']/text[@accessiblename='5']
+				</item>
+				<item
+				name="Text51"
+				id="f5cedba2-f174-44c1-a514-f0fad316c007"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 5 ']"
+				addcaps="text,accessible"
+				refimgid="672c954d-20af-4c03-9199-a2c49333c346">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 5 ']
+				</item>
+				<item
+				name="Text6"
+				id="2d82a11d-7e54-4657-996d-597b908f238c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='6']/text[@accessiblename='6']"
+				addcaps="text,accessible"
+				refimgid="b43d7567-a585-4ce9-83c0-13f2629115a5">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='6']/text[@accessiblename='6']
+				</item>
+				<item
+				name="Text61"
+				id="b6fba7dd-cf19-4785-a6ae-56b94050bb69"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 6 ']"
+				addcaps="text,accessible"
+				refimgid="c3f08e45-fa7d-4c5a-8f9d-4372269590e8">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 6 ']
+				</item>
+				<item
+				name="Text7"
+				id="67eda495-f769-4e26-9991-3a911c7122c4"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='7']/text[@accessiblename='7']"
+				addcaps="text,accessible"
+				refimgid="d8aeff19-9d3e-48e3-bba2-7515d92bddec">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='7']/text[@accessiblename='7']
+				</item>
+				<item
+				name="Text71"
+				id="0a6b32d4-c1a5-49d7-ab8e-b5228c1a0f72"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 7 ']"
+				addcaps="text,accessible"
+				refimgid="57d02006-9954-48e9-a70f-6e867e011a8f">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 7 ']
+				</item>
+				<item
+				name="Text8"
+				id="128d5f3d-e25d-42bb-939d-adb61fa31134"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='8']/text[@accessiblename='8']"
+				addcaps="text,accessible"
+				refimgid="be4abb5c-e9d5-4335-8dd2-b3ca1c242f58">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='8']/text[@accessiblename='8']
+				</item>
+				<item
+				name="Text81"
+				id="7fcd69f1-8c02-445a-8021-47a9e1037032"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 8 ']"
+				addcaps="text,accessible"
+				refimgid="0b8cea33-be32-4cdc-b583-eeb69e149265">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 8 ']
+				</item>
+				<item
+				name="Text1"
+				id="ed6e0bbf-2316-4b0c-9a3b-b1f722fa07c5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename='1 ']"
+				addcaps="text,accessible"
+				refimgid="86ef53a3-c775-4c3a-9a2a-cafb5856d77b">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename='1 ']
+				</item>
+				<item
+				name="Text21"
+				id="16f844d3-7635-4358-af1c-656ea3c5fc35"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 2 ']"
+				addcaps="text,accessible"
+				refimgid="205c1bbe-a124-48ae-867b-831f81c40dde">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 2 ']
+				</item>
+				<item
+				name="Text31"
+				id="aee6d55e-2a38-499c-90ca-df159c92553b"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 3 ']"
+				addcaps="text,accessible"
+				refimgid="31b6b6a5-39f7-4e0f-bd25-f2865e1e31b3">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 3 ']
+				</item>
+				<item
+				name="Text41"
+				id="55c41276-c6b5-4fd2-92ae-adc1c51aed2e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 4 ']"
+				addcaps="text,accessible"
+				refimgid="0619a82d-b26a-4ccc-b1c8-a080b169bd60">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 4 ']
+				</item>
+				<item
+				name="Text9"
+				id="0217a582-8117-49ae-ac81-7b66fc7f83d5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='9']/text[@accessiblename='9']"
+				addcaps="text,accessible"
+				refimgid="8ab37e43-cdba-4e51-b8ed-aa65d63e7e6a">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='9']/text[@accessiblename='9']
+				</item>
+				<item
+				name="Text91"
+				id="42c1033f-6a99-49b1-8caf-9fd0ae076294"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 9 ']"
+				addcaps="text,accessible"
+				refimgid="a82e0e3d-c47b-4f2f-a5c0-e3535513d116">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 9 ']
+				</item>
+				<item
+				name="Text10"
+				id="dd87c4ff-2ac9-4588-a126-da83084e498f"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[4]/link[@accessiblename='10']/text[@accessiblename='10']"
+				addcaps="text,accessible"
+				refimgid="360d4a6e-f8d7-43a4-b707-99b4d989307d">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='10']/text[@accessiblename='10']
+				</item>
+				<item
+				name="Text101"
+				id="4fe50fdd-c1bc-4a2c-96b3-78e1f67d1787"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[4]/text[@accessiblename=' 10 ']"
+				addcaps="text,accessible"
+				refimgid="534965b9-ce0e-448b-89c4-dcc25d7fd2ea">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 10 ']
+				</item>
+				<item
+				name="Fls7"
+				id="6e1ff9f1-6ddb-4227-bab2-58dcb8ed5d60"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Index_ - Mozilla Firefox']/container/container/element/container/element/element[1]/link[@accessiblename='fls7']/text[@accessiblename='fls7']"
+				addcaps="text,accessible"
+				refimgid="23ed7741-257c-4b53-80c5-4ddb955999ec">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='fls7']/text[@accessiblename='fls7']
+				</item>
+				<basepath>
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']
+				</basepath>
+			</folder>
+			<folder
+			name="HttpLocalhost6333AccountRegister"
+			id="a37ee3b3-ffea-4898-ade1-4682d75d76ce"
+			searchtimeout="30000ms"
+			capname="container"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="HttpLocalhost6333AccountManage"
+				id="eff0349c-a3f3-478b-bcbc-d5d97ac792b0"
+				searchtimeout="30000ms"
+				capname="container"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container[@accessiblename~'^http://localhost:6333/acc']"
+				addcaps="container,accessible"
+				refimgid="7cff4f10-b829-488d-b4a7-0671531a10c5">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']
+				</item>
+				<item
+				name="Фамилия1"
+				id="a8a31e78-bf8f-4781-b9da-c2651ecb30f8"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[2]/text/text[@accessiblename='Фамилия']"
+				addcaps="text,accessible"
+				refimgid="c050e530-cb97-46e4-985b-1760fe2c9ac0">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;' and @accessiblerole='StaticText']/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;']
+				</item>
+				<item
+				name="TextИмя"
+				id="ad929625-e142-4f93-a401-4942fdf7ae8a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[1]/element/text[@accessiblename='Имя']"
+				addcaps="text,accessible"
+				refimgid="d9c89282-655f-4bdf-a234-e46423a9a489">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[1]/element/text[@accessiblename='&#1048;&#1084;&#1103;']
+				</item>
+				<item
+				name="Фамилия"
+				id="ee5becf5-845a-4fef-9e43-c2284fe24f28"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[2]/element/text[@accessiblename='Фамилия']"
+				addcaps="text,accessible"
+				refimgid="4c0eefc7-f171-4315-882c-10bd5816a832">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/element/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;']
+				</item>
+				<item
+				name="Email"
+				id="847f34fe-3a1e-47af-a53d-e17f646b95bf"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[3]/element/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="17a25a9a-8c21-4cb6-bd76-600f240bfa81">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/element/text[@accessiblename='Email']
+				</item>
+				<item
+				name="Email1"
+				id="8c9f2044-bdcd-4e8c-811f-726a2992247b"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[3]/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="c0931e04-d3f8-4b36-a562-ee06f8bd5e09">
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='Email' and @accessiblerole='StaticText']
+				</item>
+				<basepath>
+					/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Index_ - Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="НачальнаяСтраницаMozillaFirefoxMoz"
+		id="cd056304-d21f-4448-8699-7d818ab6d493"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Начальная страница Mozilla Firefox - Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="НачальнаяСтраницаMozillaFirefoxMoz"
+			id="a6f34e76-cb53-417c-b580-ff5596018938"
+			searchtimeout="30000ms"
+			capname="titlebar"
+			refpath="/form[@title~'^Начальная\ страница\ Mozill']/titlebar[@accessiblerole='TitleBar']"
+			addcaps="titlebar,accessible"
+			refimgid="7c6f8725-aad6-471f-a8f4-1468b19939e0">
+				/form[@title~'^&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;\ &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;\ Mozill']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title~'^&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;\ &#1089;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;\ Mozill']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Firefox"
+		id="cfc2ce31-eccd-4364-a3ba-bdaf114c6fae"
+		searchtimeout="30000ms"
+		capname="contextmenu"
+		refpath="/contextmenu[@processname='firefox']"
+		addcaps="contextmenu,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Настройки"
+			id="ee760c5f-58c0-4f83-b4c5-29d5d8ed393f"
+			searchtimeout="30000ms"
+			capname="menuitem"
+			refpath="/contextmenu[@processname='firefox']/contextmenu/menuitem[@accessiblename='Настройки']"
+			addcaps="menuitem,accessible"
+			refimgid="3c542823-d088-4a39-94c6-7e8f62a78384">
+				/contextmenu[@processname='firefox']/?/?/menuitem[@accessiblename='&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;']
+			</item>
+			<basepath>
+				/contextmenu[@processname='firefox']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Настройки"
+		id="0364b901-6129-471a-9f47-75daca4ba0a2"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Настройки']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="УдалитьВашуНедавнююИсторию"
+			id="c724f7cc-db4c-47a5-a643-10c9e669eb05"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Настройки']/container[@accessiblename='История']/text[5]/link[@accessiblename~'^удалить\ вашу\ недавнюю\ ист']/text[@accessiblename~'^удалить\ вашу\ недавнюю\ ист']"
+			addcaps="text,accessible"
+			refimgid="c1b1fa1a-2d39-4658-a3a8-a3e5df228185">
+				/form[@title='&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;']/container[@accessiblename='&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103;']//text[@accessiblename~'^&#1091;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;\ &#1074;&#1072;&#1096;&#1091;\ &#1085;&#1077;&#1076;&#1072;&#1074;&#1085;&#1102;&#1102;\ &#1080;&#1089;&#1090;']
+			</item>
+			<item
+			name="ButtonOK"
+			id="fbc50a98-bbe3-4346-828f-dec7e3a6899f"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Настройки']/button[@accessiblename='OK']"
+			addcaps="button,accessible"
+			refimgid="246e5f19-066f-44d6-91e4-61540614ca7e">
+				/form[@title='&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;']/button[@accessiblename='OK']
+			</item>
+			<item
+			name="Приватность"
+			id="b6957a69-058d-415c-b935-381568736e83"
+			searchtimeout="30000ms"
+			capname="listitem"
+			refpath="/form[@title='Настройки']/list/listitem[@accessiblename='Приватность']"
+			addcaps="listitem,accessible"
+			refimgid="c9a0bf93-4061-472d-a745-d5f83c07e2d3">
+				/form[@title='&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;']/?/?/listitem[@accessiblename='&#1055;&#1088;&#1080;&#1074;&#1072;&#1090;&#1085;&#1086;&#1089;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@title='&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="УдалениеВсейИстории"
+		id="1b915924-f65f-4906-b928-b185e1f77044"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Удаление всей истории']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="УдалитьСейчас"
+			id="b7a97795-0029-4211-afe6-f69cde09ec61"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title='Удаление всей истории']/button[@accessiblename='Удалить сейчас']"
+			addcaps="button,accessible"
+			refimgid="e9246728-a86e-4610-b2f1-ba4409f9a942">
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077; &#1074;&#1089;&#1077;&#1081; &#1080;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080;']/button[@accessiblename='&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100; &#1089;&#1077;&#1081;&#1095;&#1072;&#1089;']
+			</item>
+			<basepath>
+				/form[@title='&#1059;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077; &#1074;&#1089;&#1077;&#1081; &#1080;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="MozillaFirefox"
+		id="afe3b6ca-a8ed-4ff6-bcf7-f71347b0bd96"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Mozilla Firefox']"
+		addcaps="form,nativewindow"
+		refimgid="2bef177a-7006-4826-b834-7ff7eed5adeb"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="HttpLocalhost6333AccountRegister"
+			id="7dc2ebdd-c4ea-494c-9ee7-bb5159faf303"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/register']"
+			addcaps="container,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Логин"
+				id="d2fdf29a-6e2d-4537-b634-b4e304e6d13b"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[1]/element/text[@accessiblename='Логин']"
+				addcaps="text,accessible"
+				refimgid="964b0328-96ca-452a-b557-cda7fb0c90ff">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[1]/element/text[@accessiblename='&#1051;&#1086;&#1075;&#1080;&#1085;']
+				</item>
+				<item
+				name="Email"
+				id="4692a991-7f35-4f22-ba85-d8f51006db9c"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[2]/element/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="f8a30a35-f25c-4de9-a3e5-857571d5a5f3">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[2]/element/text[@accessiblename='Email']
+				</item>
+				<item
+				name="Пароль"
+				id="eaac101f-8c82-4b30-9814-cb66a441ab28"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[3]/element/text[@accessiblename='Пароль']"
+				addcaps="text,accessible"
+				refimgid="845f0afd-dbf3-403e-9499-f7a6685d1f5f">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[3]/element/text[@accessiblename='&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;']
+				</item>
+				<item
+				name="ПодтверждениеПароля"
+				id="0d0bd788-17c9-4a22-8d9d-49a0c36fe97e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[4]/element/text[@accessiblename='Подтверждение пароля']"
+				addcaps="text,accessible"
+				refimgid="63d7a36a-335b-4ff9-bd25-be87a18fbd4a">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[4]/element/text[@accessiblename='&#1055;&#1086;&#1076;&#1090;&#1074;&#1077;&#1088;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077; &#1087;&#1072;&#1088;&#1086;&#1083;&#1103;']
+				</item>
+				<item
+				name="Зарегистрироваться"
+				id="2c9c0f4f-3e32-434f-9780-9c279505f640"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element/element/element[5]/element/button[@accessiblename='Зарегистрироваться']"
+				addcaps="button,accessible"
+				refimgid="a981006d-bc73-43ed-9cf8-70443402c77d">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[@accessiblerole='None']/element/element[5]/?/?/button[@accessiblename='&#1047;&#1072;&#1088;&#1077;&#1075;&#1080;&#1089;&#1090;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;&#1089;&#1103;']
+				</item>
+				<item
+				name="TextИмя"
+				id="8e7cb696-c510-4e25-9650-ab52bf61830e"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[1]/element/text[@accessiblename='Имя']"
+				addcaps="text,accessible"
+				refimgid="b56d95c8-7575-4533-b5e1-66da4f39ac68">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[1]/element/text[@accessiblename='&#1048;&#1084;&#1103;']
+				</item>
+				<item
+				name="TextИмя1"
+				id="f5ce55ac-556c-4b8e-9e6e-c993338ad7f5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[1]/text[@accessiblename='Имя']"
+				addcaps="text,accessible"
+				refimgid="dfea5b74-82ce-4e66-aff2-9de8b7f8ef50">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblerole='StaticText']
+				</item>
+				<item
+				name="Фамилия"
+				id="c472785d-49bd-404e-82da-2ce609373eee"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[2]/element/text[@accessiblename='Фамилия']"
+				addcaps="text,accessible"
+				refimgid="d0d6cafd-d8cc-424f-9dcb-ff391447bcaf">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/element/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;']
+				</item>
+				<item
+				name="Фамилия1"
+				id="9dbdef6d-2c7a-46cc-b69e-f7a5a057e098"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[2]/text[@accessiblename='Фамилия']"
+				addcaps="text,accessible"
+				refimgid="bae8fd97-292c-4a8a-84a9-0108aea4ff11">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;' and @accessiblerole='StaticText']
+				</item>
+				<item
+				name="Email1"
+				id="60fc1d3c-dab1-4f5f-98c2-8ddd56d283c2"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[3]/text/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="d165b9c7-c2fd-4766-ba3f-241a68cd3ea8">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='Email' and @accessiblerole='StaticText']/text[@accessiblename='Email']
+				</item>
+				<item
+				name="Сохранить"
+				id="31c3bc34-b5c9-4b60-8cb0-34157f912435"
+				searchtimeout="30000ms"
+				capname="button"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[4]/element/button[@accessiblename='Сохранить']"
+				addcaps="button,accessible"
+				refimgid="fe941e5f-6d64-4775-8b39-1903650b05d9">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[4]/?/?/button[@accessiblename='&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;']
+				</item>
+				<item
+				name="Email2"
+				id="5dc0b8fa-a0be-4fa3-a91b-f70d8f106d1d"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/manage']/element[@accessiblerole='None']/element[4]/element[3]/element[@accessiblerole='None']/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="5ee87e47-8615-4a34-a94b-353c313566b2">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/element/text[@accessiblename='Email']
+				</item>
+				<item
+				name="Выход"
+				id="203e742e-891d-4428-8b24-5ca97eb638d0"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[1]/link[@accessiblename='Выход']/text[@accessiblename='Выход']"
+				addcaps="text,accessible"
+				refimgid="f3c00738-5959-44ca-a4e2-436b4c3bfdbe">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']//link[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']/text[@accessiblename='&#1042;&#1099;&#1093;&#1086;&#1076;']
+				</item>
+				<item
+				name="Фамилия2"
+				id="51f510ff-aeab-4940-bacd-c44cfc3c512a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[2]/text/text[@accessiblename='Фамилия']"
+				addcaps="text,accessible"
+				refimgid="8c6b33bc-b5c2-43c3-b192-1d4f2d74e848">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;' and @accessiblerole='StaticText']/text[@accessiblename='&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;']
+				</item>
+				<item
+				name="TheФамилияFieldIsRequired"
+				id="b6fb2045-4bcf-4230-a05b-7338a4cb853a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/manage']/element[@accessiblerole='None']/element[4]/element[2]/element[@accessiblerole='None']/text[@accessiblename='The Фамилия field is required.']"
+				addcaps="text,accessible"
+				refimgid="ade34736-49d8-4b9f-be65-b77cc69721fb">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/?/?/text[@accessiblename~'^The\ &#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;\ field\ is\ requ']
+				</item>
+				<item
+				name="Email3"
+				id="ceed700d-68eb-4dba-a550-37604915e0a5"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[3]/text[@accessiblename='Email']"
+				addcaps="text,accessible"
+				refimgid="49daac4b-35e6-4908-8913-c3a4974a18de">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='Email' and @accessiblerole='StaticText']
+				</item>
+				<item
+				name="ВведитеEmail"
+				id="e2cd179c-77e9-49b2-ba6f-a8efa284d2b6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='http://localhost:6333/account/manage']/element[@accessiblerole='None']/element[4]/element[3]/element[@accessiblerole='None']/text[@accessiblename='Введите email']"
+				addcaps="text,accessible"
+				refimgid="f6396af7-f5d9-4d21-aacf-4c77aedddb58">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/?/?/text[@accessiblename='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; email']
+				</item>
+				<item
+				name="Назад"
+				id="e1e7592e-7623-4e90-b1aa-f59245326209"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/form[@title='Mozilla Firefox']/container/container/element/container/element/element[4]/element[4]/element/link/text[@accessiblename='Назад']"
+				addcaps="text,accessible"
+				refimgid="589704d8-82d4-42f6-9e6a-b55daa2ae9af">
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]//link[@accessiblename='&#1053;&#1072;&#1079;&#1072;&#1076;']/text[@accessiblename='&#1053;&#1072;&#1079;&#1072;&#1076;']
+				</item>
+				<basepath>
+					/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']
+				</basepath>
+			</folder>
+			<item
+			name="Fls999333"
+			id="257919e4-89bc-4535-9bfa-6fd3b6c352a2"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='Index_']/element[@accessiblerole='None']/element[1]/link[@accessiblename='fls999333']/text[@accessiblename='fls999333']"
+			addcaps="text,accessible"
+			refimgid="611d26f1-acc9-4ffa-b5e2-4f31eed7b452">
+				/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='fls999333']/text[@accessiblename='fls999333']
+			</item>
+			<basepath>
+				/form[@title='Mozilla Firefox']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL3SURBVDhPrZNpSJRRFIansFJsxDIrZ7MZu99I
+ElFmo/5Ic2l1XFLSMVwix7GskCnTTEykzaVCAzFNKUTNFlyyrBDM1JgEMTV3zRl1knJJIisiv7c7
+EQOG9asL769zz3Pfc+45HM7/PkcaxoSH6vV5EfXjY+HPJ9jwF1NsRP17napuJNu3spX31/fepUn2
+BxTUR7nlNsySnAbISpqw4/E77K6bgHONHu7lnSjU9HwsK89JopBF80C9CptVA0rRXHJi/JwqVY2y
+AjkCMk+DX9oNcYUOy8sHIczRIIZCh4efoqUiqnYeoDpQuLNXQTAax0Cfth7anHWQJWaAf7USSwo7
+YJbfDsv0Zmw6U4mZySZ8Gs3E+Euu3AhpDBNkjygJRk5QQAoD7QUJeuLccT01FlbpjbBOqcPaU49g
+oyxGfvUDYPIyRjWcK0bAm0ixXhvBQBfLYCyBwfg1O5xX+oOJK4dA/RDWMXfBVdyAqV8W7tUUgp3K
+RVe1RG8EtIXwf7w9SKCNZtAZwiBl9zZsDFbDPDQf5oo8LJVnYpl3KpbJjuP7TDHY6bOozndlz53j
+LP4Fad4jmOsPIhimLl55SFGicMYa91gIfE5iV5QSVl7x4G5RwXarAl97PfFDx6CrlDdrdFDhbtve
+uY9gMJhggDZTq2LwVm0PbSKD2sNSyP0DsMI+BCkJrvjSzMOsxhKv02xqjIBbMkmCZjtBt5xgiAKG
+wgiKvBwQJHWCSLIX1hJfSMQ70HXbDtP3+ei7KMYdf5JsBMTyeFY1m0UfWtx+Q0JoOZEMKvY74KiL
+EzL3OmI0icFkuh108QRVPrbsMx9Tt3mzkM2sO/DEXsQanBjKMfRkKNTQF/q90QRjx2lpUQQdfny2
+wVuYtdBIW6hWrswoI+JvjTKCVk8K8iHo8SPoC6SJ/gT3tgnYYzyLApq84E6Y0MAGCcckUW3FbSsS
+i75USQVspQOPvSkVfL5EVvcHWHJz6R0XKrN/LbEhKKRypPKg8qZyprKj4v65SD8BmUuNDABVHpQA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer"
+		id="fcf3594a-db2f-4965-9862-b02f2b9be5b5"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="TotalCommanderX64850NOTREGISTE"
+			id="f4765a48-9a0f-4d95-834a-8ef86d8a0d0c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^Total\ Commander\ \(x64\)\ 8\.5']"
+			addcaps="button,accessible"
+			refimgid="fae58dac-1730-41bf-b140-688549767dbd">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Total\ Commander\ \(x64\)\ 8\.5']
+			</item>
+			<item
+			name="Skype1KurochkinD"
+			id="413a9d40-bf65-4edf-98cd-aea1cbce58b8"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Skype™ [1] - kurochkin.d']"
+			addcaps="button,accessible"
+			refimgid="08afb341-8051-4902-bf2f-c1f07201d81b">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='Skype&#8482; [1] - kurochkin.d']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="NewVariable"
+		id="19b247e8-941e-4aa2-893c-5fc5761d562b">
+			&#1051;&#1086;&#1075;&#1080;&#1085;
+		</var>
+		<var
+		name="Login"
+		id="08f67a31-a7be-45a7-877f-3420fe212d33">
+			&#1051;&#1086;&#1075;&#1080;&#1085;
+		</var>
+		<var
+		name="LoginField"
+		id="872dd417-e85a-423d-960c-f8447a8f63f6">
+			&#1051;&#1086;&#1075;&#1080;&#1085;
+		</var>
+		<var
+		name="EnterLogin"
+		id="44cabf93-ae97-487e-9852-536d3abe53e1">
+			&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1083;&#1086;&#1075;&#1080;&#1085;
+		</var>
+		<var
+		name="Enter"
+		id="a9bd6d78-8cdf-49d7-a11f-8bb031c9a39b">
+			&#1042;&#1086;&#1081;&#1090;&#1080;
+		</var>
+		<var
+		name="loginFieldValid"
+		id="8d21be42-bd5f-4af3-8c82-3a19656f6a82">
+			true
+		</var>
+		<var
+		name="loginFieldValidationMessage"
+		id="e81f05b2-7ad2-4368-9d3d-4067abdbddc7">
+			&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; &#1083;&#1086;&#1075;&#1080;&#1085;
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,75 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="11.08.2014 14:11:16"
+	timestampiso="2014-08-11T10:11:16"
+	module="Http_Browser_ClearCache"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1aaf6d5794d5c250"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Http_Browser_ClearCache
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.166"
+		level="Info"
+		category="Website"
+		errimg=".\Http_Browser_ClearCache20140811_141112_a146c8c7_trace.jpg"
+		errthumb=".\Http_Browser_ClearCache20140811_141112_a146c8c7_trace_thumb.jpg">
+			<message>
+				Opening web site '' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="67"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.245"
+		level="Info"
+		category="Mouse"
+		errimg=".\Http_Browser_ClearCache20140811_141112_4acd03c0_trace.jpg"
+		errthumb=".\Http_Browser_ClearCache20140811_141112_4acd03c0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item '&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;MozillaFirefoxMoz.&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;MozillaFirefoxMoz' at 271;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title~'^Начальная\ страница\ Mozill']/titlebar[@accessiblerole='TitleBar']"
+			fullname="RanorexTestMvcSuiteRepository.НачальнаяСтраницаMozillaFirefoxMoz.НачальнаяСтраницаMozillaFirefoxMoz"
+			id="a6f34e76cb53417cb580ff5596018938"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="61"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.591"
+		level="Error"
+		category="User"
+		errimg=".\Http_Browser_ClearCache20140811_141112_9baede66_trace.jpg"
+		errthumb=".\Http_Browser_ClearCache20140811_141112_9baede66_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

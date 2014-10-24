@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Index_";
+}
+
+@section scripts{
+    <script type="text/javascript" src="Scripts/switcher.js"></script>
+}
+
+<script>
+
+    $(document).ready(function () {
+        loadContent(null, 0);
+
+        $(document).on('submit', '.editingForm', function (e) {
+            e.preventDefault();
+            var id = $(this).data('userid');
+
+            $.ajax({
+                url: 'odata/Ousers(' + id + ')',
+                type: 'PUT',
+                data: {
+                    UserId: id,
+                    FirstName: $('#f_fname-' + id).val(),
+                    LastName: $('#f_lname-' + id).val(),
+                    Email: $('#f_email-' + id).val()
+                },
+                success: function () { switcher.endEdit(id, true);}
+            });
+
+        })
+
+    });
+
+    function loadContent(order, page) {
+        $.ajax({
+            url: "@ViewBag.Culture/Home/GetUsersFiltered",
+            data: { filter: $('#filter').val(), orderBy: order, page: page },
+            success: function (data, status, xhr) {
+                $('#content').html(data);
+            }
+            });
+    };
+
+</script>
+
+<div id="content">
+
+</div>
+

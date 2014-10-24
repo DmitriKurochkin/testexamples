@@ -1,0 +1,26 @@
+﻿@model testmvc.Models.UsersListViewModel
+@using testmvc.Helpers
+
+
+@Html.OrderingLink(Strings.ByFirstName, "FirstName", (string)ViewBag.OrderBy)
+@Html.OrderingLink(Strings.ByLastName, "LastName", (string)ViewBag.OrderBy)
+@Html.OrderingLink(Strings.ByEmail, "Email", (string)ViewBag.OrderBy)
+
+<input type="text" id="filter" value="@ViewBag.Filter"/><button onclick="loadContent('@ViewBag.OrderBy', 0)">Find</button>
+
+@foreach (UserModel u in Model.Users)
+{
+    @Html.Partial("_UserEditingForm", u)
+}
+
+@for (int i = 0; i < ViewBag.TotalPages; i++)
+{
+    if(ViewBag.Page == i)
+    {
+        @(i + 1)
+    }
+    else 
+    { 
+        <a href="#" onclick="loadContent('@ViewBag.OrderBy', @i)">@(i + 1)</a>
+    }
+}

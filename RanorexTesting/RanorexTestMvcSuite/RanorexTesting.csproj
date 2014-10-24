@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F43DD8F6-253D-4186-BE3F-39D8EA547554}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RanorexTestMvcSuite</RootNamespace>
+    <AssemblyName>RanorexTestMvcSuite</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.WebLanguageServices, Version=5.0.30709.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RanorexTestMvcSuiteRepository.rximg">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <DependentUpon>RanorexTesting.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>2878e6b8-0f52-4e37-85f3-abfa68cda623</id>
+    </None>
+    <None Include="RanorexTesting.rxrep">
+      <id>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</id>
+      <repoid>8bd153c0-f1a4-4b50-9c06-7e246203e39c</repoid>
+      <reporootid>c9882dc8-51ac-4910-8dc9-6e1053f0ef76</reporootid>
+    </None>
+    <None Include="TestCases\TC_EditCurrentUserProfileAtNegative.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>1c313f4f-9e7d-41fc-bf00-d96046c4eb8f</id>
+    </None>
+    <None Include="TestCases\Http_Browser_ClearCache.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>c0cf85c0-1ea5-4d73-9f3b-1141c5468ec5</id>
+    </None>
+    <None Include="TestCases\TC_CheckPagination.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>7fc154f4-c168-4922-9697-bfe104f6a414</id>
+    </None>
+    <None Include="TestCases\TC_EditCurrentUserProfileAtPositive.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>f096180d-9ff6-4fb9-82f8-4c46ad2d7e83</id>
+    </None>
+    <None Include="TestCases\TC_LoginAtNegative.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>bfbd9bea-e7c1-4049-a519-73d26f70d678</id>
+    </None>
+    <None Include="TestCases\TC_LoginAtPositive.rxrec">
+      <id>d7e28973-beb9-4db3-ac12-b06c7d29ddf5</id>
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+    </None>
+    <None Include="TestCases\TC_RegistrationAtNegative.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>02edcb57-1afa-4db0-a41d-8ddf8d9942f8</id>
+    </None>
+    <None Include="TestCases\TC_RegistrationAtPositive.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>320f837b-4a93-458e-af9b-600f9dc8dc65</id>
+    </None>
+    <None Include="TestCases\TC_SelectLanguagesOnAllPages.rxrec">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <id>e8a747f7-ab42-46df-b2c1-5684939320bd</id>
+    </None>
+    <Content Include="RanorexTesting.cd">
+      <id>f1c86c06-b856-4a90-9437-0ea7ae358a21</id>
+    </Content>
+    <Content Include="RanorexTesting.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>4f1c2c3d-f03c-4bcd-8850-150fce89b0ee</id>
+    </Content>
+    <Compile Include="AssemblyInfo.cs">
+      <id>47cf938e-bb5b-4e0c-a9b6-5be16c5465a9</id>
+    </Compile>
+    <Compile Include="RanorexTestMvcSuiteRepository.cs">
+      <BoundTo>31abdf9b-4b5a-43c3-9945-025eb16e9aaa</BoundTo>
+      <DependentUpon>RanorexTesting.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>83037e79-d039-4365-bfe9-39f7f05b5538</id>
+    </Compile>
+    <Compile Include="TestCases\TC_EditCurrentUserProfileAtNegative.cs">
+      <BoundTo>1c313f4f-9e7d-41fc-bf00-d96046c4eb8f</BoundTo>
+      <DependentUpon>TC_EditCurrentUserProfileAtNegative.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42f6b62a-0c1b-4e3f-91c3-d172f74e3915</id>
+    </Compile>
+    <Compile Include="TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs">
+      <BoundTo>1c313f4f-9e7d-41fc-bf00-d96046c4eb8f</BoundTo>
+      <DependentUpon>TC_EditCurrentUserProfileAtNegative.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>98f411c6-9b38-49c8-a2bb-3944704d2423</id>
+    </Compile>
+    <Compile Include="TestCases\Http_Browser_ClearCache.cs">
+      <BoundTo>c0cf85c0-1ea5-4d73-9f3b-1141c5468ec5</BoundTo>
+      <DependentUpon>Http_Browser_ClearCache.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4146f373-22f6-4f6f-8902-85ea46b4761d</id>
+    </Compile>
+    <Compile Include="TestCases\Http_Browser_ClearCache.UserCode.cs">
+      <BoundTo>c0cf85c0-1ea5-4d73-9f3b-1141c5468ec5</BoundTo>
+      <DependentUpon>Http_Browser_ClearCache.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d785a75f-91ed-4b86-bb50-d4683b9d9961</id>
+    </Compile>
+    <Compile Include="TestCases\TC_CheckPagination.cs">
+      <BoundTo>7fc154f4-c168-4922-9697-bfe104f6a414</BoundTo>
+      <DependentUpon>TC_CheckPagination.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4c9bcfa3-9e3b-4078-982f-061949875ce2</id>
+    </Compile>
+    <Compile Include="TestCases\TC_CheckPagination.UserCode.cs">
+      <BoundTo>7fc154f4-c168-4922-9697-bfe104f6a414</BoundTo>
+      <DependentUpon>TC_CheckPagination.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2331d8c3-6971-48d2-b4e4-7dcce8857522</id>
+    </Compile>
+    <Compile Include="TestCases\TC_EditCurrentUserProfileAtPositive.cs">
+      <BoundTo>f096180d-9ff6-4fb9-82f8-4c46ad2d7e83</BoundTo>
+      <DependentUpon>TC_EditCurrentUserProfileAtPositive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e32ae634-618b-4cd7-9dc4-880d28e88f2f</id>
+    </Compile>
+    <Compile Include="TestCases\TC_EditCurrentUserProfileAtPositive.UserCode.cs">
+      <BoundTo>f096180d-9ff6-4fb9-82f8-4c46ad2d7e83</BoundTo>
+      <DependentUpon>TC_EditCurrentUserProfileAtPositive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a1989f89-9f2d-4287-b419-adb04acd79fa</id>
+    </Compile>
+    <Compile Include="TestCases\TC_LoginAtNegative.cs">
+      <BoundTo>bfbd9bea-e7c1-4049-a519-73d26f70d678</BoundTo>
+      <DependentUpon>TC_LoginAtNegative.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d29ef1f4-8feb-4649-ac68-120c20e84a6c</id>
+    </Compile>
+    <Compile Include="TestCases\TC_LoginAtNegative.UserCode.cs">
+      <BoundTo>bfbd9bea-e7c1-4049-a519-73d26f70d678</BoundTo>
+      <DependentUpon>TC_LoginAtNegative.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07e7a34d-8a03-427a-8fbc-16eef78fbde8</id>
+    </Compile>
+    <Compile Include="TestCases\TC_LoginAtPositive.cs">
+      <id>dac9e8c8-a634-48ab-a217-19c48d4599f0</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>TC_LoginAtPositive.rxrec</DependentUpon>
+      <BoundTo>d7e28973-beb9-4db3-ac12-b06c7d29ddf5</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\TC_LoginAtPositive.UserCode.cs">
+      <id>bf712950-7a21-4914-8c13-53477f066361</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>TC_LoginAtPositive.rxrec</DependentUpon>
+      <BoundTo>d7e28973-beb9-4db3-ac12-b06c7d29ddf5</BoundTo>
+    </Compile>
+    <Compile Include="TestCases\TC_RegistrationAtNegative.cs">
+      <BoundTo>02edcb57-1afa-4db0-a41d-8ddf8d9942f8</BoundTo>
+      <DependentUpon>TC_RegistrationAtNegative.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5ac64b67-77cd-4e62-aea3-e2cc416e4064</id>
+    </Compile>
+    <Compile Include="TestCases\TC_RegistrationAtNegative.UserCode.cs">
+      <BoundTo>02edcb57-1afa-4db0-a41d-8ddf8d9942f8</BoundTo>
+      <DependentUpon>TC_RegistrationAtNegative.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb307614-c7cf-4483-a6a6-e754f0b09f9b</id>
+    </Compile>
+    <Compile Include="TestCases\TC_RegistrationAtPositive.cs">
+      <BoundTo>320f837b-4a93-458e-af9b-600f9dc8dc65</BoundTo>
+      <DependentUpon>TC_RegistrationAtPositive.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>68cf6a8a-5b49-49b7-a58d-a0abdbdac87f</id>
+    </Compile>
+    <Compile Include="TestCases\TC_RegistrationAtPositive.UserCode.cs">
+      <BoundTo>320f837b-4a93-458e-af9b-600f9dc8dc65</BoundTo>
+      <DependentUpon>TC_RegistrationAtPositive.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>928ef360-4034-410a-8fba-1d44bea71c08</id>
+    </Compile>
+    <Compile Include="TestCases\BrowserHelper.cs">
+      <id>2f328325-bd8a-4998-a332-b106f2d7fb12</id>
+    </Compile>
+    <Compile Include="TestCases\TC_SelectLanguagesOnAllPages.cs">
+      <BoundTo>e8a747f7-ab42-46df-b2c1-5684939320bd</BoundTo>
+      <DependentUpon>TC_SelectLanguagesOnAllPages.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e8a86aa-daee-4ed9-a42f-c31dde88cb14</id>
+    </Compile>
+    <Compile Include="TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs">
+      <BoundTo>e8a747f7-ab42-46df-b2c1-5684939320bd</BoundTo>
+      <DependentUpon>TC_SelectLanguagesOnAllPages.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e3fa75c0-542d-407a-96c5-f67bb1c9e85f</id>
+    </Compile>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+  <ItemGroup />
+</Project>

@@ -1,0 +1,144 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="11.08.2014 12:57:47"
+	timestampiso="2014-08-11T08:57:47"
+	module="Http_Browser_ClearCache"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="b93753bd1ecf628"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Http_Browser_ClearCache
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.232"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site '' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="67"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.315"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;MozillaFirefoxMoz.&#1053;&#1072;&#1095;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103;&#1057;&#1090;&#1088;&#1072;&#1085;&#1080;&#1094;&#1072;MozillaFirefoxMoz' at 271;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title~'^Начальная\ страница\ Mozill']/titlebar[@accessiblerole='TitleBar']"
+			fullname="RanorexTestMvcSuiteRepository.НачальнаяСтраницаMozillaFirefoxMoz.НачальнаяСтраницаMozillaFirefoxMoz"
+			id="a6f34e76cb53417cb580ff5596018938"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="61"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.341"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'Firefox.&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;' at 51;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/contextmenu[@processname='firefox']/?/?/menuitem[@accessiblename='Настройки']"
+			fullname="RanorexTestMvcSuiteRepository.Firefox.Настройки"
+			id="ee760c5f58c04f83b4c529d5d8ed393f"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="55"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.092"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;.&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;&#1042;&#1072;&#1096;&#1091;&#1053;&#1077;&#1076;&#1072;&#1074;&#1085;&#1102;&#1102;&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1102;' at 73;4.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Настройки']/container[@accessiblename='История']//text[@accessiblename~'^удалить\ вашу\ недавнюю\ ист']"
+			fullname="RanorexTestMvcSuiteRepository.Настройки.УдалитьВашуНедавнююИсторию"
+			id="c724f7ccdb4c47a5a64310c9e669eb05"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="49"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.033"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1059;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077;&#1042;&#1089;&#1077;&#1081;&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1080;.&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;&#1057;&#1077;&#1081;&#1095;&#1072;&#1089;' at 36;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Удаление всей истории']/button[@accessiblename='Удалить сейчас']"
+			fullname="RanorexTestMvcSuiteRepository.УдалениеВсейИстории.УдалитьСейчас"
+			id="b7a9779500294211afe6f69cde09ec61"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="43"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.767"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item '&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1080;.ButtonOK' at 36;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Настройки']/button[@accessiblename='OK']"
+			fullname="RanorexTestMvcSuiteRepository.Настройки.ButtonOK"
+			id="fbc50a98bbe34346828fdec7e3a6899f"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="37"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.995"
+		level="Info"
+		category="Application">
+			<message>
+				Closing application containing item 'LoginMozillaFirefox'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Self"
+			id="18c2b06e1b2148839b5f2eb3672013ff"
+			timeout="30000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\Http_Browser_ClearCache.UserCode.cs"
+			codeline="73"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

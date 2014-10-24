@@ -1,0 +1,92 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="08.08.2014 14:17:06"
+	timestampiso="2014-08-08T10:17:06"
+	module="TC_LoginAtNegative"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="3ced7eb9389e2ae"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_LoginAtNegative
+		</detail>
+		<errmsg>
+			Failed to find item 'RanorexTestMvcSuiteRepository.Login1.LoginName'.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.133"
+		level="Info"
+		category="Website"
+		errimg=".\TC_LoginAtNegative20140808_141703_2a0cf68d_trace.jpg"
+		errthumb=".\TC_LoginAtNegative20140808_141703_2a0cf68d_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://localhost:6333' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TC_LoginAtNegative.UserCode.cs"
+			codeline="91"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.222"
+		level="Info"
+		category="Mouse"
+		errimg=".\TC_LoginAtNegative20140808_141703_295cde78_trace.jpg"
+		errthumb=".\TC_LoginAtNegative20140808_141703_295cde78_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Login1.LoginName' at 248;19.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[16]//input[#'LoginName']"
+			fullname="RanorexTestMvcSuiteRepository.Login1.LoginName"
+			id="5bfe218d706c4619a5ed8f6897345821"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TC_LoginAtNegative.UserCode.cs"
+			codeline="85"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:00.485"
+		level="Error"
+		category="Module"
+		errimg=".\TC_LoginAtNegative20140808_141703_4bf2778e_trace.jpg"
+		errthumb=".\TC_LoginAtNegative20140808_141703_4bf2778e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'RanorexTestMvcSuiteRepository.Login1.LoginName'.<br/>No element found for path '/dom[16]//input[#'LoginName']' within 1m.
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException)
+   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   at RanorexTestMvcSuite.RanorexTestMvcSuiteRepositoryFolders.Login1AppFolder.get_LoginName() in c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\RanorexTestMvcSuiteRepository.cs:line 300
+   at RanorexTestMvcSuite.TC_LoginAtNegative.Mouse_Click_LoginName() in c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TC_LoginAtNegative.UserCode.cs:line 86
+   at RanorexTestMvcSuite.TC_LoginAtNegative.Ranorex.Core.Testing.ITestModule.Run() in c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TC_LoginAtNegative.cs:line 83
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TC_LoginAtNegative.UserCode.cs"
+			codeline="86"
+			type="repoitem"
+			path="/dom[16]//input[#'LoginName']"
+			fullname="RanorexTestMvcSuiteRepository.Login1.LoginName"
+			id="5bfe218d706c4619a5ed8f6897345821"
+			timeout="60000"
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

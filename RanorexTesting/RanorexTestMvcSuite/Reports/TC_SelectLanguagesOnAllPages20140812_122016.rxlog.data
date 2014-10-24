@@ -1,0 +1,243 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="12.08.2014 12:20:29"
+	timestampiso="2014-08-12T08:20:29"
+	module="TC_SelectLanguagesOnAllPages"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="10c8e859d8743a69"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_SelectLanguagesOnAllPages
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.233"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Enter
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.298"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (Text='&#1042;&#1086;&#1081;&#1090;&#1080;') on item 'LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="151"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.504"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="152"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:02.535"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Separator' at 111;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/separator[@accessiblerole='Separator']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Separator"
+			id="480132c17784405c897cc450ebf1bf00"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="145"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.118"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Login') on item 'LoginMozillaFirefox.Login.Login'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Login']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Login"
+			id="ba2fb85a6e1f48468f0f8400d965be1c"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="139"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.656"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Login' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Login']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Login"
+			id="ba2fb85a6e1f48468f0f8400d965be1c"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="140"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:12.684"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.LoginName' at 225;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Login name']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.LoginName"
+			id="318bb5f84608462d96e55b5df7497c94"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="133"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:21.393"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.LoginName'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Login name']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.LoginName"
+			id="318bb5f84608462d96e55b5df7497c94"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="127"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:29.876"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.Password'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Password']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Password"
+			id="79fa7f6e03404ea9b2f05e1a609496d3"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="115"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:38.180"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.Password'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Password']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Password"
+			id="79fa7f6e03404ea9b2f05e1a609496d3"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="109"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:46.822"
+		level="Info"
+		category="Keyboard"
+		errimg=".\TC_SelectLanguagesOnAllPages20140812_122016_ba6f4a12_trace.jpg"
+		errthumb=".\TC_SelectLanguagesOnAllPages20140812_122016_ba6f4a12_trace_thumb.jpg">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.Password'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Password']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Password"
+			id="79fa7f6e03404ea9b2f05e1a609496d3"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="103"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:55.665"
+		level="Info"
+		category="Mouse"
+		errimg=".\TC_SelectLanguagesOnAllPages20140812_122016_3cda5843_trace.jpg"
+		errthumb=".\TC_SelectLanguagesOnAllPages20140812_122016_3cda5843_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.Login' at 20;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Login']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Login"
+			id="ba2fb85a6e1f48468f0f8400d965be1c"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_SelectLanguagesOnAllPages.UserCode.cs"
+			codeline="97"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="01:01.021"
+		level="Error"
+		category="User"
+		errimg=".\TC_SelectLanguagesOnAllPages20140812_122016_f30e7290_trace.jpg"
+		errthumb=".\TC_SelectLanguagesOnAllPages20140812_122016_f30e7290_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

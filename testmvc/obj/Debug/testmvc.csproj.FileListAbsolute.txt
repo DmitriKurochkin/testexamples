@@ -1,0 +1,331 @@
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\testmvc.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\testmvc.pdb
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\en\testmvc.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Antlr3.Runtime.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.Integration.Mvc.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.Integration.WebApi.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\AutoMapper.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\AutoMapper.Net4.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.Core.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\EntityFramework.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\log4net.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Data.Edm.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Data.OData.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Newtonsoft.Json.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\nunit.framework.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Net.Http.Formatting.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Spatial.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Helpers.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.OData.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.WebHost.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Mvc.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Optimization.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Razor.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\TechTalk.SpecFlow.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebDriver.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebGrease.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebMatrix.Data.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebMatrix.WebData.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Mono.Math.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.Integration.Mvc.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Autofac.Integration.WebApi.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\AutoMapper.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\log4net.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Data.Edm.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Data.OData.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Newtonsoft.Json.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\nunit.framework.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Net.Http.Formatting.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Spatial.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.OData.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Http.WebHost.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\EntityFramework.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Helpers.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Mvc.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.Razor.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebDriver.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebMatrix.Data.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\WebMatrix.WebData.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.Core.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\Mono.Math.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\de\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\es\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\fr\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\it\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ja\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ko\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\ru\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.csprojResolveAssemblyReference.cache
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.resources
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.en.resources
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.csproj.GenerateResource.Cache
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\en\testmvc.resources.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\testmvc\obj\Debug\testmvc.pdb
+C:\testmvctask-master\testmvc\bin\testmvc.dll
+C:\testmvctask-master\testmvc\bin\testmvc.pdb
+C:\testmvctask-master\testmvc\bin\en\testmvc.resources.dll
+C:\testmvctask-master\testmvc\bin\Antlr3.Runtime.dll
+C:\testmvctask-master\testmvc\bin\Autofac.dll
+C:\testmvctask-master\testmvc\bin\Autofac.Integration.Mvc.dll
+C:\testmvctask-master\testmvc\bin\Autofac.Integration.WebApi.dll
+C:\testmvctask-master\testmvc\bin\AutoMapper.dll
+C:\testmvctask-master\testmvc\bin\AutoMapper.Net4.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.AspNet.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.Core.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.dll
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\testmvctask-master\testmvc\bin\EntityFramework.dll
+C:\testmvctask-master\testmvc\bin\log4net.dll
+C:\testmvctask-master\testmvc\bin\Microsoft.Data.Edm.dll
+C:\testmvctask-master\testmvc\bin\Microsoft.Data.OData.dll
+C:\testmvctask-master\testmvc\bin\Microsoft.Web.Infrastructure.dll
+C:\testmvctask-master\testmvc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\testmvctask-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\testmvctask-master\testmvc\bin\Newtonsoft.Json.dll
+C:\testmvctask-master\testmvc\bin\nunit.framework.dll
+C:\testmvctask-master\testmvc\bin\System.Net.Http.Formatting.dll
+C:\testmvctask-master\testmvc\bin\System.Spatial.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Helpers.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Http.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Http.OData.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Http.WebHost.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Mvc.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Optimization.dll
+C:\testmvctask-master\testmvc\bin\System.Web.Razor.dll
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.Deployment.dll
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.dll
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.Razor.dll
+C:\testmvctask-master\testmvc\bin\TechTalk.SpecFlow.dll
+C:\testmvctask-master\testmvc\bin\WebDriver.dll
+C:\testmvctask-master\testmvc\bin\WebGrease.dll
+C:\testmvctask-master\testmvc\bin\WebMatrix.Data.dll
+C:\testmvctask-master\testmvc\bin\WebMatrix.WebData.dll
+C:\testmvctask-master\testmvc\bin\Org.Mentalis.Security.Cryptography.dll
+C:\testmvctask-master\testmvc\bin\Mono.Math.dll
+C:\testmvctask-master\testmvc\bin\Autofac.xml
+C:\testmvctask-master\testmvc\bin\Autofac.Integration.Mvc.xml
+C:\testmvctask-master\testmvc\bin\Autofac.Integration.WebApi.xml
+C:\testmvctask-master\testmvc\bin\AutoMapper.xml
+C:\testmvctask-master\testmvc\bin\log4net.xml
+C:\testmvctask-master\testmvc\bin\Microsoft.Data.Edm.xml
+C:\testmvctask-master\testmvc\bin\Microsoft.Data.OData.xml
+C:\testmvctask-master\testmvc\bin\Newtonsoft.Json.xml
+C:\testmvctask-master\testmvc\bin\nunit.framework.xml
+C:\testmvctask-master\testmvc\bin\System.Net.Http.Formatting.xml
+C:\testmvctask-master\testmvc\bin\System.Spatial.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Http.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Http.OData.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Http.WebHost.xml
+C:\testmvctask-master\testmvc\bin\EntityFramework.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Helpers.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Mvc.xml
+C:\testmvctask-master\testmvc\bin\System.Web.Razor.xml
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.xml
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.Deployment.xml
+C:\testmvctask-master\testmvc\bin\System.Web.WebPages.Razor.xml
+C:\testmvctask-master\testmvc\bin\WebDriver.xml
+C:\testmvctask-master\testmvc\bin\WebMatrix.Data.xml
+C:\testmvctask-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\testmvctask-master\testmvc\bin\WebMatrix.WebData.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.AspNet.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.Core.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OAuth.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.xml
+C:\testmvctask-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\testmvctask-master\testmvc\bin\Org.Mentalis.Security.Cryptography.xml
+C:\testmvctask-master\testmvc\bin\Mono.Math.xml
+C:\testmvctask-master\testmvc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\testmvctask-master\testmvc\bin\de\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\es\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\it\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\testmvctask-master\testmvc\bin\de\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\es\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\fr\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\it\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\ja\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\ko\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\ru\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hans\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\bin\zh-Hant\System.Spatial.resources.dll
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.csprojResolveAssemblyReference.cache
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.resources
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.en.resources
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.csproj.GenerateResource.Cache
+C:\testmvctask-master\testmvc\obj\Debug\en\testmvc.resources.dll
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.dll
+C:\testmvctask-master\testmvc\obj\Debug\testmvc.pdb
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\testmvc.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\testmvc.pdb
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\en\testmvc.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Antlr3.Runtime.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.Integration.Mvc.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.Integration.WebApi.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\AutoMapper.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\AutoMapper.Net4.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.Core.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\EntityFramework.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\log4net.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Data.Edm.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Data.OData.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Newtonsoft.Json.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\nunit.framework.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Net.Http.Formatting.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Spatial.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Helpers.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.OData.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.WebHost.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Mvc.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Optimization.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Razor.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.Razor.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\TechTalk.SpecFlow.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebDriver.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebGrease.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebMatrix.Data.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebMatrix.WebData.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Mono.Math.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.Integration.Mvc.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Autofac.Integration.WebApi.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\AutoMapper.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\log4net.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Data.Edm.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Data.OData.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Newtonsoft.Json.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\nunit.framework.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Net.Http.Formatting.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Spatial.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.OData.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Http.WebHost.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\EntityFramework.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Helpers.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Mvc.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.Razor.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\System.Web.WebPages.Razor.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebDriver.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebMatrix.Data.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\WebMatrix.WebData.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.Core.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\Mono.Math.xml
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\de\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\es\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\fr\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\it\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ja\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ko\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\ru\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.csprojResolveAssemblyReference.cache
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.resources
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.Properties.Resources.resources
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.App_LocalResources.Strings.en.resources
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.csproj.GenerateResource.Cache
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\en\testmvc.resources.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.dll
+C:\Users\dkurochkin\Desktop\testmvc-master (1)\testmvc-master\testmvc\obj\Debug\testmvc.pdb

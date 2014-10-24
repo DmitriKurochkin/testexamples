@@ -1,0 +1,42 @@
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\TestProject.dll.config
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\TestProject.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\TestProject.pdb
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\Configuration.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\nunit.framework.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\WebDriver.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\WebDriver.Support.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\nunit.framework.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\WebDriver.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\bin\Debug\WebDriver.Support.xml
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\obj\Debug\TestProject.csproj.App.config
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\obj\Debug\TestProject.dll
+C:\Users\dkurochkin\Documents\Visual Studio 2012\Projects\testmvctask-master\TestProject\obj\Debug\TestProject.pdb
+C:\testmvctask-master\TestProject\bin\Debug\TestProject.dll.config
+C:\testmvctask-master\TestProject\bin\Debug\TestProject.dll
+C:\testmvctask-master\TestProject\bin\Debug\TestProject.pdb
+C:\testmvctask-master\TestProject\bin\Debug\Configuration.dll
+C:\testmvctask-master\TestProject\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\testmvctask-master\TestProject\bin\Debug\nunit.framework.dll
+C:\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Extensions.dll
+C:\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Primitives.dll
+C:\testmvctask-master\TestProject\bin\Debug\TechTalk.SpecFlow.dll
+C:\testmvctask-master\TestProject\bin\Debug\WebDriver.dll
+C:\testmvctask-master\TestProject\bin\Debug\WebDriver.Support.dll
+C:\testmvctask-master\TestProject\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\testmvctask-master\TestProject\bin\Debug\nunit.framework.xml
+C:\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Extensions.xml
+C:\testmvctask-master\TestProject\bin\Debug\System.Net.Http.Primitives.xml
+C:\testmvctask-master\TestProject\bin\Debug\WebDriver.xml
+C:\testmvctask-master\TestProject\bin\Debug\WebDriver.Support.xml
+C:\testmvctask-master\TestProject\obj\Debug\TestProject.csproj.App.config
+C:\testmvctask-master\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\testmvctask-master\TestProject\obj\Debug\TestProject.dll
+C:\testmvctask-master\TestProject\obj\Debug\TestProject.pdb

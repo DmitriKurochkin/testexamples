@@ -1,0 +1,307 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="08.08.2014 15:16:02"
+	timestampiso="2014-08-08T11:16:02"
+	module="TC_LoginAtNegative"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="d2da818ef7800ab"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_LoginAtNegative
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.184"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>loginFieldValidationMessage, Enter, LoginField
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.222"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site 'http://localhost:6333' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="117"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.305"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;' at 221;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="111"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.619"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="105"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.319"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;' at 20;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="99"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.935"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating Exists on item 'LoginMozillaFirefox.Login.&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;1'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Введите пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеПароль1"
+			id="b816faf0e84c476799e026ded0cf9bc1"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="93"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.159"
+		level="Success"
+		category="Validation">
+			<message>
+				Element for item '&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;1' does exist.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/?/?/text[@accessiblename='Введите пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеПароль1"
+			id="b816faf0e84c476799e026ded0cf9bc1"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="94"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:04.208"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;' at 219;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="86"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.669"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;1' at 142;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/?/?/text[@accessiblerole='StaticText']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин1"
+			id="0ff2b83102a7409faf930f7c0605a8dc"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="79"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.251"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Delete}' with focus on 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="73"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.615"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating Exists on item 'LoginMozillaFirefox.Login.&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Введите логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеЛогин"
+			id="68c7ef6efd4740dc874d537871bda153"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="67"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:05.808"
+		level="Success"
+		category="Validation">
+			<message>
+				Element for item '&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1051;&#1086;&#1075;&#1080;&#1085;' does exist.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Введите логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеЛогин"
+			id="68c7ef6efd4740dc874d537871bda153"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="68"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:05.834"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;' at 155;18.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Пароль"
+			id="5e22c8e571fb4c8bbff4a667c7fca928"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="61"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.428"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7fls7' with focus on 'LoginMozillaFirefox.Login.&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Пароль"
+			id="5e22c8e571fb4c8bbff4a667c7fca928"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="55"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.493"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;' at 13;15.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="49"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.126"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating Exists on item 'LoginMozillaFirefox.Login.&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Введите логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеЛогин"
+			id="68c7ef6efd4740dc874d537871bda153"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="43"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.499"
+		level="Success"
+		category="Validation">
+			<message>
+				Element for item '&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;&#1051;&#1086;&#1075;&#1080;&#1085;' does exist.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/?/?/text[@accessiblename='Введите логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.ВведитеЛогин"
+			id="68c7ef6efd4740dc874d537871bda153"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_LoginAtNegative.UserCode.cs"
+			codeline="44"
+			loglvl="Success"/>
+		</item>
+	</activity>
+</report>

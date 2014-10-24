@@ -1,0 +1,10 @@
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\RanorexTestMvcSuite.rxtmg
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\RanorexTestMvcSuite.dll
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\RanorexTestMvcSuite.pdb
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\Ranorex.Core.WinApi.dll
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\Ranorex.Core.Injector.dll
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\Ranorex.Libs.WinForms.dll
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\obj\x86\Debug\RanorexTestMvcSuite.csprojResolveAssemblyReference.cache
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\obj\x86\Debug\RanorexTestMvcSuite.dll
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\obj\x86\Debug\RanorexTestMvcSuite.pdb
+C:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\bin\Debug\RanorexTestMvcSuite.dll.config

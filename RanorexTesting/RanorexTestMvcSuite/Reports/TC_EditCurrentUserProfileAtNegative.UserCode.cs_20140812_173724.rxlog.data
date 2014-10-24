@@ -1,0 +1,494 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="12.08.2014 17:37:38"
+	timestampiso="2014-08-12T13:37:38"
+	module="TC_EditCurrentUserProfileAtNegative"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="38f72c5e4f8c6932"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_EditCurrentUserProfileAtNegative
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.951"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Enter, LoginField
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:01.114"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;' at 207;20.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="175"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.082"
+		level="Warn"
+		category="WinForms">
+			<message>
+				Failed to load the assemblies containing the definition of this control. UI element identification capabilities for this control are limited. Failed assemblies:<br/>C:\Program Files (x86)\EPiServer\Shared\Install\EPiServerInstall.exe<br/>The following website provides more information on this technology limitation:<br/>http://www.ranorex.com/support/user-guide-20/technology-instrumentation/general-troubleshooting.html#c3250<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="176"
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:07.529"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="169"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.282"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Tab}' with focus on 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="191"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:08.694"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7fls7' with focus on 'LoginMozillaFirefox.Login.&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Пароль"
+			id="5e22c8e571fb4c8bbff4a667c7fca928"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="157"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.787"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;' at 17;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="151"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.437"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Fls7' at 9;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='fls7']/text[@accessiblename='fls7']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Fls7"
+			id="6e1ff9f16ddb4227bab258dcb8ed5d60"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="145"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.022"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MozillaFirefox.HttpLocalhost6333AccountRegister.Text&#1048;&#1084;&#1103;' at 179;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[1]/element/text[@accessiblename='Имя']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.TextИмя"
+			id="8e7cb696c5104e259650ab52bf61830e"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="138"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.791"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MozillaFirefox.HttpLocalhost6333AccountRegister.Text&#1048;&#1084;&#1103;1' at 183;19.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblerole='StaticText']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.TextИмя1"
+			id="f5ce55ac556c4b8e9e6ec993338ad7f5"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="131"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.425"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Delete}' with focus on 'MozillaFirefox.HttpLocalhost6333AccountRegister.Text&#1048;&#1084;&#1103;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[1]/element/text[@accessiblename='Имя']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.TextИмя"
+			id="8e7cb696c5104e259650ab52bf61830e"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="125"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.899"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;' at 49;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[4]/?/?/button[@accessiblename='Сохранить']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Сохранить"
+			id="31c3bc34b5c94b608cb034157f912435"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="119"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:14.618"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Fls7' at 1;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='fls7']/text[@accessiblename='fls7']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Fls7"
+			id="6e1ff9f16ddb4227bab258dcb8ed5d60"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="113"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:15.760"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;' at 149;18.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/element/text[@accessiblename='Фамилия']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Фамилия"
+			id="c472785d49bd404e82da2ce609373eee"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="106"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:16.493"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;2' at 8;5.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='Фамилия' and @accessiblerole='StaticText']/text[@accessiblename='Фамилия']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Фамилия2"
+			id="51f510ffaeab4940bacdc44cfc3c512a"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="99"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:17.142"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Delete}' with focus on 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/element/text[@accessiblename='Фамилия']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Фамилия"
+			id="c472785d49bd404e82da2ce609373eee"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="93"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:17.536"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;' at 37;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[4]/?/?/button[@accessiblename='Сохранить']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Сохранить"
+			id="31c3bc34b5c94b608cb034157f912435"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="87"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.147"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleName='The &#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103; field is required.') on item 'MozillaFirefox.HttpLocalhost6333AccountRegister.The&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;FieldIsRequired'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/?/?/text[@accessiblename~'^The\ Фамилия\ field\ is\ requ']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.TheФамилияFieldIsRequired"
+			id="b6fb20454bcf4230a05b7338a4cb853a"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="81"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.385"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleName' of element for item 'RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.The&#1060;&#1072;&#1084;&#1080;&#1083;&#1080;&#1103;FieldIsRequired' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[2]/?/?/text[@accessiblename~'^The\ Фамилия\ field\ is\ requ']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.TheФамилияFieldIsRequired"
+			id="b6fb20454bcf4230a05b7338a4cb853a"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="82"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:18.411"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Down item 'MozillaFirefox.HttpLocalhost6333AccountRegister.Email2' at 191;24.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/element/text[@accessiblename='Email']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Email2"
+			id="5dc0b8faa0be4fa3a91bf70d8f106d1d"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="74"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.890"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Up item 'MozillaFirefox.HttpLocalhost6333AccountRegister.Email3' at 80;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/?/?/text[@accessiblename='Email' and @accessiblerole='StaticText']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Email3"
+			id="ceed700d68eb4dbaa55037604915e0a5"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="67"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:19.483"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Delete}' with focus on 'MozillaFirefox.HttpLocalhost6333AccountRegister.Email2'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/element/text[@accessiblename='Email']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Email2"
+			id="5dc0b8faa0be4fa3a91bf70d8f106d1d"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="61"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:19.860"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;' at 43;13.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[4]/?/?/button[@accessiblename='Сохранить']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Сохранить"
+			id="31c3bc34b5c94b608cb034157f912435"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="55"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:20.505"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleName='&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077; email') on item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;Email'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/?/?/text[@accessiblename='Введите email']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.ВведитеEmail"
+			id="e2cd179c77e949b2ba6fa8efa284d2b6"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="49"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:20.775"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleName' of element for item 'RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.&#1042;&#1074;&#1077;&#1076;&#1080;&#1090;&#1077;Email' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]/element[3]/?/?/text[@accessiblename='Введите email']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.ВведитеEmail"
+			id="e2cd179c77e949b2ba6fa8efa284d2b6"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="50"
+			loglvl="Success"/>
+		</item>
+		<item
+		time="00:20.804"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.HttpLocalhost6333AccountRegister.&#1053;&#1072;&#1079;&#1072;&#1076;' at 29;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename~'^http://localhost:6333/acc']/element/element[4]//link[@accessiblename='Назад']/text[@accessiblename='Назад']"
+			fullname="RanorexTestMvcSuiteRepository.MozillaFirefox.HttpLocalhost6333AccountRegister.Назад"
+			id="e1e7592e76234e90b1aaf59245326209"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="43"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:21.470"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.&#1042;&#1099;&#1093;&#1086;&#1076;' at 27;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='Выход']/text[@accessiblename='Выход']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Выход"
+			id="3904fa3f6cbc4cf4a02cb8137c3454e3"
+			timeout="60000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_EditCurrentUserProfileAtNegative.UserCode.cs"
+			codeline="37"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:22.605"
+		level="Info"
+		category="Application">
+			<message>
+				Closing application containing item 'LoginMozillaFirefox'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Self"
+			id="18c2b06e1b2148839b5f2eb3672013ff"
+			timeout="30000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\BrowserHelper.cs"
+			codeline="56"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

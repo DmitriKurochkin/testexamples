@@ -1,0 +1,87 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="11.08.2014 15:01:40"
+	timestampiso="2014-08-11T11:01:40"
+	module="TC_CheckPagination"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="ea3e9f084edb8b"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_CheckPagination
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.148"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>LoginField, Enter
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.185"
+		level="Info"
+		category="Website"
+		errimg=".\TC_CheckPagination20140811_150135_1388b6b0_trace.jpg"
+		errthumb=".\TC_CheckPagination20140811_150135_1388b6b0_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://localhost:6333' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="101"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.268"
+		level="Info"
+		category="Mouse"
+		errimg=".\TC_CheckPagination20140811_150135_d894748e_trace.jpg"
+		errthumb=".\TC_CheckPagination20140811_150135_d894748e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;' at 244;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="105"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.084"
+		level="Error"
+		category="User"
+		errimg=".\TC_CheckPagination20140811_150135_b703ce4d_trace.jpg"
+		errthumb=".\TC_CheckPagination20140811_150135_b703ce4d_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

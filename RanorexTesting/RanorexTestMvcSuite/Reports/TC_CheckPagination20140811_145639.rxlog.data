@@ -1,0 +1,413 @@
+﻿<report>
+	<activity
+	user="DKurochkin"
+	host="DKUROCHKIN"
+	rxversion="5.1.0.18625"
+	osversion="Windows 7 Service Pack 1 64bit"
+	runtimeversion="2.0.50727.5472"
+	procarch="64bit"
+	language="en-US"
+	screenresolution="2560x1024"
+	timestamp="11.08.2014 14:56:45"
+	timestampiso="2014-08-11T10:56:45"
+	module="TC_CheckPagination"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="ff48b401df1d7c0"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			TC_CheckPagination
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.186"
+		level="Warn"
+		category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>LoginField, Enter
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.237"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site 'http://localhost:6333' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="101"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.351"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;' at 244;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="105"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:06.412"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7' with focus on 'LoginMozillaFirefox.Login.&#1051;&#1086;&#1075;&#1080;&#1085;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[1]/element/text[@accessiblename='Логин']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Логин"
+			id="b573f5d077554f5590ac9dfe172a3ba7"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="109"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.107"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;' at 254;27.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Пароль"
+			id="5e22c8e571fb4c8bbff4a667c7fca928"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="113"
+			itemindex="3"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.961"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'fls7fls7' with focus on 'LoginMozillaFirefox.Login.&#1055;&#1072;&#1088;&#1086;&#1083;&#1100;'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[2]/element/text[@accessiblename='Пароль']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Пароль"
+			id="5e22c8e571fb4c8bbff4a667c7fca928"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="117"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:09.149"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMozillaFirefox.Login.&#1042;&#1086;&#1081;&#1090;&#1080;' at 27;17.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Login - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Login']/element/element[@accessiblerole='None']/element[4]/?/?/button[@accessiblename='Войти']"
+			fullname="RanorexTestMvcSuiteRepository.LoginMozillaFirefox.Login.Войти"
+			id="a11204da08024b94adf42f59b69a7377"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="121"
+			itemindex="5"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:10.060"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text2' at 2;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='2']/text[@accessiblename='2']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text2"
+			id="b1fcb22bc1a944339a235d0949170d31"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="125"
+			itemindex="6"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:11.689"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text3' at 2;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='3']/text[@accessiblename='3']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text3"
+			id="4fd5616daabe432d8c401e9218067eaa"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="129"
+			itemindex="7"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:12.714"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text4' at 2;11.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='4']/text[@accessiblename='4']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text4"
+			id="fc7d0da831904d938028694801f5ba2b"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="133"
+			itemindex="8"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:13.757"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text5' at 3;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='5']/text[@accessiblename='5']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text5"
+			id="b0f038bc56db480ba27864f29680376a"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="137"
+			itemindex="9"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:14.992"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleRole='Text') on item 'IndexMozillaFirefox.Index.Text51'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 5 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text51"
+			id="f5cedba2f17444c1a514f0fad316c007"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="141"
+			itemindex="10"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:15.406"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleRole' of element for item 'RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text51' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 5 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text51"
+			id="f5cedba2f17444c1a514f0fad316c007"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="142"
+			loglvl="Success"
+			itemindex="10"/>
+		</item>
+		<item
+		time="00:15.537"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text6' at 3;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='6']/text[@accessiblename='6']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text6"
+			id="2d82a11d7e544657996d597b908f238c"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="145"
+			itemindex="11"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:16.493"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleRole='Text') on item 'IndexMozillaFirefox.Index.Text61'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 6 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text61"
+			id="b6fba7ddcf194785a6ae56b94050bb69"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="149"
+			itemindex="12"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:16.985"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleRole' of element for item 'RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text61' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 6 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text61"
+			id="b6fba7ddcf194785a6ae56b94050bb69"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="150"
+			loglvl="Success"
+			itemindex="12"/>
+		</item>
+		<item
+		time="00:17.107"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text7' at 4;9.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='7']/text[@accessiblename='7']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text7"
+			id="67eda495f7694e2699913a911c7122c4"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="153"
+			itemindex="13"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.207"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleRole='Text') on item 'IndexMozillaFirefox.Index.Text71'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 7 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text71"
+			id="0a6b32d4c1a549d7ab8eb5228c1a0f72"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="157"
+			itemindex="14"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:18.675"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleRole' of element for item 'RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text71' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 7 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text71"
+			id="0a6b32d4c1a549d7ab8eb5228c1a0f72"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="158"
+			loglvl="Success"
+			itemindex="14"/>
+		</item>
+		<item
+		time="00:18.806"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'IndexMozillaFirefox.Index.Text8' at 5;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']//link[@accessiblename='8']/text[@accessiblename='8']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text8"
+			id="128d5f3de25d42bb939dadb61fa31134"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="161"
+			itemindex="15"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:19.751"
+		level="Info"
+		category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibleRole='Text') on item 'IndexMozillaFirefox.Index.Text81'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 8 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text81"
+			id="7fcd69f18c02445a802147a9e1037032"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="165"
+			itemindex="16"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:20.107"
+		level="Success"
+		category="Validation">
+			<message>
+				Attribute 'AccessibleRole' of element for item 'RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text81' does match the specified value.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/form[@title='Index_ - Mozilla Firefox']/container[@accessiblerole='Grouping']//container[@accessiblename='Index_']/element/element[4]/text[@accessiblename=' 8 ']"
+			fullname="RanorexTestMvcSuiteRepository.IndexMozillaFirefox.Index.Text81"
+			id="7fcd69f18c02445a802147a9e1037032"
+			timeout="90000"
+			codefile="c:\testmvctask-master\RanorexTestMvcSuite\RanorexTestMvcSuite\TestCases\TC_CheckPagination.cs"
+			codeline="166"
+			loglvl="Success"
+			itemindex="16"/>
+		</item>
+	</activity>
+</report>
